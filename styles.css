@@ -4,6 +4,7 @@ html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 header{
@@ -25,9 +26,18 @@ section{
     text-align: center;
 }
 
+header img{
+    margin: 35px auto;
+    width: 80%;
+    max-width: 500px;
+    background: #00050e;
+}
+
 .gameLogo img{
     width: 70%;
     margin: -110px 10px 10px 10px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .gameArt img{
@@ -35,11 +45,13 @@ section{
     margin: 20px 10px;
     border: 5px solid black;
     border-radius: 5px;
+    padding: 3px;
 }
 
 .details{
     margin: 0 auto;
     font-size: 14.5px;
+    font-weight: 700;
 }
 
 .paragraph{
@@ -47,6 +59,8 @@ section{
     margin-bottom: 20px;
     border-top: 3px dotted #00b188;
     padding: 15px 20px 0px 20px;
+    font-weight: 400;
+    color: ;
 }
 
 .numberPosition{
@@ -60,6 +74,7 @@ section{
     text-align: left;
     margin: 0 auto;
     margin-left: -10px;
+    font-weight: 600;
 }
 
 p{
