@@ -16,7 +16,7 @@ header{
 
 main{
     margin:-15px auto;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 section{
@@ -42,7 +42,9 @@ header img{
 
 .gameArt img{
     width: 85%;
-    margin: 20px 10px;
+    /* margin: 20px 10px; */
+    margin-top: 5px;
+    margin-bottom: 20px;
     border: 5px solid black;
     border-radius: 5px;
     padding: 3px;
@@ -60,7 +62,7 @@ header img{
     border-top: 3px dotted #00b188;
     padding: 15px 20px 0px 20px;
     font-weight: 400;
-    color: ;
+    text-align: left;
 }
 
 .numberPosition{
@@ -85,5 +87,5 @@ footer{
     margin: -20px auto;
     background: #dd0000;
     text-align: center;
-    max-width: 800px;
+    max-width: 700px;
 }
